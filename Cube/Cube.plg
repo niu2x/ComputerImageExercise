@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Cube - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7C.tmp" with contents
+[
+/nologo /o"Debug/Cube.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\Camera.sbr"
+".\Debug\Cube.sbr"
+".\Debug\CubeDoc.sbr"
+".\Debug\CubeView.sbr"
+".\Debug\DialogSetCameraPos.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\Matrix.sbr"
+".\Debug\myCube.sbr"
+".\Debug\Point3D.sbr"
+".\Debug\Shape.sbr"
+".\Debug\Vector3D.sbr"
+".\Debug\World.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7C.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Cube.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

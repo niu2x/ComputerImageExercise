@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 高级三维空间 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP229.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/高级三维空间.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC program\53120816\高级三维空间\Cube.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP229.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP22A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/高级三维空间.pdb" /debug /machine:I386 /out:"Debug/高级三维空间.exe" /pdbtype:sept 
+".\Debug\Camera.obj"
+".\Debug\Cube.obj"
+".\Debug\Line.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Matrix.obj"
+".\Debug\Plane.obj"
+".\Debug\Point3D.obj"
+".\Debug\Shape.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Vector3D.obj"
+".\Debug\World.obj"
+".\Debug\XYZ.obj"
+".\Debug\高级三维空间.obj"
+".\Debug\高级三维空间Doc.obj"
+".\Debug\高级三维空间View.obj"
+".\Debug\高级三维空间.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP22A.tmp"
+<h3>Output Window</h3>
+Compiling...
+Cube.cpp
+e:\vc program\53120816\高级三维空间\vector3d.h(38) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+e:\vc program\53120816\高级三维空间\vector3d.h(44) : warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP22B.tmp" with contents
+[
+/nologo /o"Debug/高级三维空间.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\Camera.sbr"
+".\Debug\Cube.sbr"
+".\Debug\Line.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\Matrix.sbr"
+".\Debug\Plane.sbr"
+".\Debug\Point3D.sbr"
+".\Debug\Shape.sbr"
+".\Debug\Vector3D.sbr"
+".\Debug\World.sbr"
+".\Debug\XYZ.sbr"
+".\Debug\高级三维空间.sbr"
+".\Debug\高级三维空间Doc.sbr"
+".\Debug\高级三维空间View.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP22B.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+高级三维空间.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 学号多变形 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/学号多变形.res" /d "_DEBUG" /d "_AFXDLL" "E:\VC program\53120816\学号多变形\学号多变形.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP34.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/学号多变形.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC program\53120816\学号多变形\AskID.cpp"
+"E:\VC program\53120816\学号多变形\MainFrm.cpp"
+"E:\VC program\53120816\学号多变形\MyPolygon.cpp"
+"E:\VC program\53120816\学号多变形\学号多变形.cpp"
+"E:\VC program\53120816\学号多变形\学号多变形Doc.cpp"
+"E:\VC program\53120816\学号多变形\学号多变形View.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP34.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP35.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/学号多变形.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC program\53120816\学号多变形\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP35.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP36.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/学号多变形.pdb" /debug /machine:I386 /out:"Debug/学号多变形.exe" /pdbtype:sept 
+".\Debug\AskID.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyPolygon.obj"
+".\Debug\StdAfx.obj"
+".\Debug\学号多变形.obj"
+".\Debug\学号多变形Doc.obj"
+".\Debug\学号多变形View.obj"
+".\Debug\学号多变形.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP36.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AskID.cpp
+MainFrm.cpp
+MyPolygon.cpp
+学号多变形.cpp
+学号多变形Doc.cpp
+学号多变形View.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+学号多变形.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

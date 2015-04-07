@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ότ²Γ - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Ότ²Γ.res" /d "_DEBUG" /d "_AFXDLL" "E:\VC program\53120816\Ότ²Γ\Ότ²Γ.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Ότ²Γ.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC program\53120816\Ότ²Γ\MainFrm.cpp"
+"E:\VC program\53120816\Ότ²Γ\Ότ²Γ.cpp"
+"E:\VC program\53120816\Ότ²Γ\Ότ²ΓDoc.cpp"
+"E:\VC program\53120816\Ότ²Γ\Ότ²ΓView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Ότ²Γ.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC program\53120816\Ότ²Γ\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Ότ²Γ.pdb" /debug /machine:I386 /out:"Debug/Ότ²Γ.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Ότ²Γ.obj"
+".\Debug\Ότ²ΓDoc.obj"
+".\Debug\Ότ²ΓView.obj"
+".\Debug\Ότ²Γ.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+Ότ²Γ.cpp
+Ότ²ΓDoc.cpp
+Ότ²ΓView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Ότ²Γ.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

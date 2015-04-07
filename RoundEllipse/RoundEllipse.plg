@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RoundEllipse - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/RoundEllipse.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC program\53120816\RoundEllipse\MainFrm.cpp"
+"E:\VC program\53120816\RoundEllipse\qwe.cpp"
+"E:\VC program\53120816\RoundEllipse\RoundEllipse.cpp"
+"E:\VC program\53120816\RoundEllipse\RoundEllipseDoc.cpp"
+"E:\VC program\53120816\RoundEllipse\RoundEllipseView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB6.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/RoundEllipse.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC program\53120816\RoundEllipse\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB7.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB8.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/RoundEllipse.pdb" /debug /machine:I386 /out:"Debug/RoundEllipse.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\qwe.obj"
+".\Debug\RoundEllipse.obj"
+".\Debug\RoundEllipseDoc.obj"
+".\Debug\RoundEllipseView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\RoundEllipse.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB8.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1330) : error C2061: syntax error : identifier 'Punsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1371) : error C2061: syntax error : identifier 'Punsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1465) : error C2061: syntax error : identifier 'Punsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1531) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1538) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1595) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1624) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1680) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1806) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1819) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1939) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1980) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(1999) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2035) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2046) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2390) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2415) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2426) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2447) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2516) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2527) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2572) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2599) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2607) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2623) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2703) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2726) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2782) : error C2061: syntax error : identifier 'LPunsigned'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2982) : error C2065: 'Punsigned' : undeclared identifier
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2982) : error C2144: syntax error : missing ')' before type 'int'
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2982) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+d:\program files\microsoft visual studio\vc98\include\winbase.h(2982) : fatal error C1004: unexpected end of file found
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+RoundEllipse.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
